@@ -1,0 +1,341 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+}
+header p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    top: 260px;
+}
+.description{
+    text-align: center;
+    
+}
+.actions{
+    text-align: center;
+}
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.inscription-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.inscription-form h2{
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+#espace_etudiant{
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+}
+
+.espace{
+    position: relative;
+    bottom: 72px;
+  }
+    .colgnrl{
+      display: flex;
+      gap: 20px;
+      position: relative;
+      top: 300px !important;
+    }
+
+    .col1,.col2
+{
+	border: 0px black solid;
+	margin-left: 150px;
+	background-color: rgb(5, 5, 5);
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2),0 6px 6px 0 rgba(0,0,0,0.19);
+	border-radius: 3px;
+	text-align: center;
+    font-size: 25px;
+	width: 25%;
+	height: 200px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.col3,.col4{
+  position: relative;
+  top: 60px;
+  border: 0px rgb(30, 9, 151) solid;
+	margin-left: 150px;
+	background-color:  rgb(30, 9, 151);
+	box-shadow: 0 8px 8px 0  rgb(30, 9, 151);
+	border-radius: 3px;
+	text-align: center;
+    font-size: 25px;
+	width: 25%;
+	height: 200px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.col1:hover,.col2:hover,.col3:hover,.col4:hover
+{
+   box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  
+   background: rgb(68, 71, 68);
+
+   color: black;
+   cursor: pointer;
+}
+.deconnexion{
+  margin-left: 1200px;
+  position: relative;
+  bottom: 590px;
+}
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="time"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Styles pour les statuts */
+td.status {
+    font-weight: bold;
+}
+
+td.status.pending {
+    color: #ff8c00; /* Orange */
+}
+
+td.status.approved {
+    color: #28a745; /* Vert */
+}
+
+td.status.denied {
+    color: #dc3545; /* Rouge */
+}
+
+/* Media Query pour les petits écrans */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+#retour{
+    position: relative;
+    right: 800px;
+    top: 15px;
+}
